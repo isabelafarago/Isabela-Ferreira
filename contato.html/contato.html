@@ -7,35 +7,26 @@
     <title>Contato</title>
     <meta name="author" content="isabela ferreira da silva">
     <meta name = "description" content="entrando em contato comigo">
+    <link rel= "stylesheet" href="estilos.css">
 </head>
-<style>
-input[type=text]:focus {
-    background-color: lightblue;
-    color:black; 
-}
-input[type=email]:focus {
-    background-color: lightblue;
-    color:black; 
-}
-</style>
 <body>
     <h1><strong>Entre em contato comigo! </strong></h1>
     <h2> <strong>Digite suas informações abaixo: </strong></h2>
     <form action= "">
     <ul> 
-        <li><label for="nome"> Nome: </label>
-        <input type="text" id="nome"  name="nomeUsuarios"> </li>
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome"  name="nomeUsuarios" required name ="nomeUsuarios"> 
     <br>
-        <li> <label for="email"> E-mail: </label>
-        <input type="email" id="email"  name="EmailUsuarios"> </li>
+        <label for="email"> E-mail: </label>
+        <input type="email" id="email"  name="EmailUsuarios" required name ="EmailUsuarios"> 
     <br>
-        <li><label for="Mensagem">Digite sua mensagem:</label><br>
-        <textarea id="text" name="msgUsuario" rows="5" cols="33">
-         </textarea></li>
+        <label for="Mensagem">Mensagem:</label><br>
+        <textarea name="text" name="msgUsuario" rows="5" cols="33" required name ="msgUsuario"> 
+         </textarea>
     <br>
     </ul>
-    </form>
     <input type="submit" value="Enviar">  
+    </form>
 </body>
 <br>
 <br>
