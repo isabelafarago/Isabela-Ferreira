@@ -8,7 +8,7 @@
         font-style: Arial;
     }
     form {
-        background-color: rgb(225, 193, 110);
+        background-color: rgb(189, 38, 38);
         margin: 0 auto;
         font-size: 25px;
         font-style: "Times new roman";
@@ -61,18 +61,17 @@
         border-radius: 15px;
         height: 30px;
         outline: none;
-        background-color: rgb(188, 169, 18);
+        background-color: rgb(81, 19, 4);
         color: white;
         font-size: 15px;
         box-shadow: 5px 5px gray;
         cursor: pointer;
     }
     input[type=submit]:hover{
-        background-color: rgb(40, 156, 40);
+        background-color: rgb(247, 50, 50);
     }
     input[type=submit]:active{
         background-color: rgb(40, 156, 40);
         box-shadow: 0px 5px gray;
         transform: translateY(4px);
     }
-   

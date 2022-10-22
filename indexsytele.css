@@ -1,0 +1,31 @@
+ ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.menu {
+    list-style-type: none;
+    margin: 0%;
+    text-align: center;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: rgb(189, 38, 38);
+    position: none;
+    top: 0%;
+    width: 100%;
+    
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: floralwhite;
+    background-color:rgb(85, 20, 20);
+} 
