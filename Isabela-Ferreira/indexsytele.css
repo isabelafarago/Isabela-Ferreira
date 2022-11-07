@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu nav{
+    position: relative;
+    font-family: monospace;
+    float: left;
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 1rem;
+    background-color:rgb(124, 14, 14);
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  
+}  
+.menu li a{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu li ul{
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+}
+.menu li ul li{
+    clear: both;
+    width: 100%;
+}
+.menu ul li:hover,
+.menu ul li:focus-within{
+    background-color:rgb(77, 11, 11) ;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.menu a:hover{
+    color:rgb(255, 255, 255) ; 
+}
+.menu li:hover>ul, 
+.menu li:focus-within>ul, 
+.menu ul li ul:hover,
+.menu ul li ul:focus{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}

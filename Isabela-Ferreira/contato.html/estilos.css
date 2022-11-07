@@ -1,0 +1,77 @@
+    
+    h1{
+        font-size: 30px;
+        font-style: Arial;
+    }
+    h2{
+        font-size: 12px;
+        font-style: Arial;
+    }
+    form {
+        background-color: rgb(189, 38, 38);
+        margin: 0 auto;
+        font-size: 25px;
+        font-style: "Times new roman";
+        width: 350px;
+        padding: 1em;
+        border: 3px solid rgb(39, 32, 32);
+        border-radius: 1em;
+        text-align: center;
+    }
+    ul {
+        list-style: nome;
+        padding: 0px;
+        margin:0px;
+    }
+    form li+li{
+        margin-top: 1em ;
+    }
+    label{ 
+        display: inline-block;
+        width: 150px;    
+        text-align: right;
+        
+    }
+    input[type=text]:focus {
+    background-color: lightblue;
+    color:black; 
+    width: 100px;
+    
+    }
+    input[type=email]:focus {
+    background-color: lightblue;
+    color:black; 
+    width: 100px;
+    border: 1px solid black; 
+    box-sizing: border-box;
+       
+    }
+    input{
+        text-align: center;
+    }
+    textarea{
+    font: 1em sans-serif;
+    color:black; 
+    width: 260px;
+    border: 1px solid black; 
+    box-sizing: border-box;
+    }
+     input[type=submit]{
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        outline: none;
+        background-color: rgb(81, 19, 4);
+        color: white;
+        font-size: 15px;
+        box-shadow: 5px 5px gray;
+        cursor: pointer;
+    }
+    input[type=submit]:hover{
+        background-color: rgb(247, 50, 50);
+    }
+    input[type=submit]:active{
+        background-color: rgb(40, 156, 40);
+        box-shadow: 0px 5px gray;
+        transform: translateY(4px);
+    }
